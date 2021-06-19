@@ -1,8 +1,19 @@
-/* Navbar ---------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+.site-bg {
+    background-color: pink;
+}
+
 /* Header ---------------------------------------------------*/
 
-.Header-bg-colour {
-    background-color: rgb(226, 83, 107);
+.heading-bg-color {
+    background-color: rgb(78, 42, 22);
+}
+
+.heading-spacing {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
 }
 
 .d-inline {
@@ -10,5 +21,16 @@
 }
 
 .gallery-pic-1 {
-    background: url() no-repeat;
+    background: url(/assets/IMGs/Chocolate\ Cake.jpg) no-repeat;
+    background-position: center;
+    position: relative;
+    height: 350px;
+    max-width: 100%;
+    background-size: cover;
+}
+
+.title-style {
+    color: pink;
+    font-size: 55px;
+    font-family: 'Viaoda Libre', cursive;
 }
