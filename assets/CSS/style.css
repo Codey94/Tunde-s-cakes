@@ -8,29 +8,33 @@
 
 .heading-bg-color {
     background-color: rgb(78, 42, 22);
+    max-height: 80px;
 }
 
 .heading-spacing {
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-bottom: 50px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
 }
 
 .d-inline {
     display: inline;
 }
 
-.gallery-pic-1 {
-    background: url(/assets/IMGs/Chocolate\ Cake.jpg) no-repeat;
+.logo-pic {
+    background: url(/assets/IMGs/logo\ test\ 3.png) no-repeat;
     background-position: center;
     position: relative;
-    height: 350px;
+    height: auto;
     max-width: 100%;
-    background-size: cover;
+    
 }
 
 .title-style {
     color: pink;
-    font-size: 55px;
+    font-size: 28px;
     font-family: 'Viaoda Libre', cursive;
 }
+
+/* Section 1 ---------------------------------------------------*/
+
