@@ -9,6 +9,7 @@
 .heading-bg-color {
     background-color: rgb(78, 42, 22);
     max-height: 80px;
+    
 }
 
 .heading-spacing {
@@ -37,4 +38,41 @@
 }
 
 /* Section 1 ---------------------------------------------------*/
+
+.menu-border {
+    border: 3px;
+    border-width: 3px;
+    height: 600px;
+    margin: 40px;
+    
+}
+
+.hero-img-1 {
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 80%;
+    justify-items: center;
+    margin-left: 50px;
+    
+    
+}
+
+.hero-img-2 {
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 80%;
+    justify-items: center;
+    margin-left: 50px;
+}
+
+.hero-img-3 {
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 80%;
+    justify-items: center;
+    margin-left: 50px;
+}
 
