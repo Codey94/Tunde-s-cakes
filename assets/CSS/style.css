@@ -42,37 +42,45 @@
 .menu-border {
     border: 3px;
     border-width: 3px;
-    height: 600px;
+    height: 400px;
     margin: 40px;
-    
+    margin: 15px;
 }
 
 .hero-img-1 {
-    height: auto;
+    height: 295px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     max-width: 80%;
     justify-items: center;
-    margin-left: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 25px;
     
     
 }
 
 .hero-img-2 {
-    height: auto;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     max-width: 80%;
     justify-items: center;
-    margin-left: 50px;
+    margin-top: 10px;
+    height: 295px;
+    border-radius: 25px;
 }
 
 .hero-img-3 {
-    height: auto;
     background-repeat: no-repeat;
     background-size: contain;
     max-width: 80%;
     justify-items: center;
-    margin-left: 50px;
+    margin-top: 10px;
+    height: 295px;
+    border-radius: 25px;
+}
+
+.center-align {
+    text-align: center;
 }
 
