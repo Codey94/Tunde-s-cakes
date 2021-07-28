@@ -36,6 +36,20 @@
     font-size: 28px;
     font-family: 'Viaoda Libre', cursive;
 }
+/* Bg Section ---------------------------------------------------*/
+/* .section-cake-bg {
+    background: url(/assets/IMGs/cake\ backgroud\ img.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+    background-position: center;
+
+} */
+
+section img {
+    background-size: 100% 100%;
+}
 
 /* Section 1 ---------------------------------------------------*/
 
