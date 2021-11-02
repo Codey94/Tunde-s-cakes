@@ -4,7 +4,52 @@
     background-color: pink;
 }
 
-/* Header ---------------------------------------------------*/
+/*---------------------------------------------------Header*/
+
+.banner {
+    background-color: blue;
+    height: 80vh;
+    min-height: 600px;
+    background-image: url("/assets/IMGs/Coffee\ and\ walnut\ cake.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+}
+
+.nav span{
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.contact {
+    background-color: white;
+    padding: 8px 30px;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+}
+
+.contact:hover{
+    background-color: antiquewhite;
+}
 
 .heading-bg-color {
     background-color: rgb(78, 42, 22);
@@ -36,65 +81,234 @@
     font-size: 28px;
     font-family: 'Viaoda Libre', cursive;
 }
-/* Bg Section ---------------------------------------------------*/
-/* .section-cake-bg {
-    background: url(/assets/IMGs/cake\ backgroud\ img.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: 100% 100%;
-    background-position: center;
 
-} */
+/*---------------------------------------------------Section 1*/
 
-section img {
-    background-size: 100% 100%;
+.section1, .section2, .section3 {
+    display: flex;
+    height: 475px;
 }
 
-/* Section 1 ---------------------------------------------------*/
-
-.menu-border {
-    border: 3px;
-    border-width: 3px;
-    height: 400px;
-    margin: 40px;
-    margin: 15px;
+.section1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.hero-img-1 {
-    height: 295px;
-    background-repeat: no-repeat;
+.section1 .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1 .text-container {
+    width: 70%;
+}
+
+.left h1 {
+    font-size: 40px;
+    margin-bottom: 16px;
+    color: rgb(50, 50, 87);
+}
+
+.left p {
+    color: #848391;
+    line-height: 1.3;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 16px;
+}
+
+.left .button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.left div img {
+    width: 150px;
+}
+
+.left, .right {
+    flex: 1;
+}
+
+/*---------------------------------------------------Section 2*/
+
+.section2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section2 .text-container {
+    width: 70%;
+}
+
+.section2 .left {
+    background-image: url(/assets/IMGs/Lemon\ Menthol\ and\ Raspberry\ Tart.jpg);
+    background-position: center top;
     background-size: cover;
-    max-width: 80%;
-    justify-items: center;
-    margin-left: 10px;
-    margin-top: 10px;
-    border-radius: 25px;
-    
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
 }
 
-.hero-img-2 {
-    background-repeat: no-repeat;
+.section2 .right {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.right h1 {
+    font-size: 40px;
+    margin-bottom: 16px;
+    color: rgb(50, 50, 87);
+}
+
+.right p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #848391;
+    line-height: 1.3;
+    margin-bottom: 16px;
+}
+
+.right .button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right div img {
+    width: 150px;
+}
+
+/*---------------------------------------------------Section 3*/
+
+.section3 .left {
+    background-image: url(/IMGs/image-graphic-design.jpg);
+    background-position: center top;
     background-size: cover;
-    max-width: 80%;
-    justify-items: center;
-    margin-top: 10px;
-    height: 295px;
-    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
 }
 
-.hero-img-3 {
-    background-repeat: no-repeat;
-    background-size: contain;
-    max-width: 80%;
-    justify-items: center;
-    margin-top: 10px;
-    height: 295px;
-    border-radius: 25px;
+.section3 .right {
+    background-image: url(/assets/IMGs/);
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
 }
 
-.center-align {
+.section3 .text-container {
+    width: 60%;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: system-ui;
+}
+
+.section3 h1 {
+    font-size: 30px;
+}
+
+.section3 .right p {
+    color: rgb(50, 50, 87);
+}
+
+/*---------------------------------------------------Testimonials*/
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 110px;
+}
+
+.testimonials-title {
+    color: #A0A1A2;
+    font-size: 20px;
+    font-family: system-ui;
+    margin-bottom: 125px;
+}
+
+/*---------------------------------------------------Clients*/
+
+.clients-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients-section .client-tab {
+    display: flex;
+    flex-direction: column;
+    flex: 0.3;
+    align-items: center;
+}
+
+.client-tab p {
+    line-height: 1.5;
+    font-size: 16px;
+    color: #848391;
+    font-family: system-ui;
     text-align: center;
 }
 
+.p-style {
+    margin-top: 70px;
+}
+
+.client-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.client-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.name-tag {
+    margin-top: 20px;
+}
+
+.name-tag h1 {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+}
+
+.name-tag p {
+    margin-top: 10px;
+}
+
+/*---------------------------------------------------Picture section*/
+
+.pic-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pic-sec .pics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pics img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
