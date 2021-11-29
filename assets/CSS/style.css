@@ -10,7 +10,8 @@
     background-color: blue;
     height: 80vh;
     min-height: 600px;
-    background-image: url("/assets/IMGs/Coffee\ and\ walnut\ cake.jpg");
+    min-width: 800px;
+    background-image: url("/assets/IMGs/cake\ backgroud\ img.jpg");
     background-position: center bottom;
     background-size: cover;
     display: flex;
@@ -145,7 +146,7 @@
 }
 
 .section2 .left {
-    background-image: url(/assets/IMGs/Lemon\ Menthol\ and\ Raspberry\ Tart.jpg);
+    background-image: url(/assets/IMGs/Chocolate\ Cake\ Slice.jpg);
     background-position: center top;
     background-size: cover;
     display: flex;
@@ -186,8 +187,8 @@
 /*---------------------------------------------------Section 3*/
 
 .section3 .left {
-    background-image: url(/IMGs/image-graphic-design.jpg);
-    background-position: center top;
+    background-image: url(/assets/IMGs/Lemon\ Drizzle.jpg);
+    background-position: center;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -196,7 +197,7 @@
 }
 
 .section3 .right {
-    background-image: url(/assets/IMGs/);
+    background-image: url(/assets/IMGs/Cream\ Rolls.jpg);
     background-size: cover;
     background-position: center top;
     display: flex;
@@ -310,5 +311,7 @@
 .pics img {
     height: 100%;
     width: 100%;
+    height: 463.73px;
+    width: 250px;
     object-fit: cover;
 }
