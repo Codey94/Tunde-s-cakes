@@ -315,3 +315,32 @@
     width: 250px;
     object-fit: cover;
 }
+
+/*---------------------------------------------------Footer*/
+
+.footer-border {
+    background-color: rgb(78, 42, 22);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-nav {
+    color: pink;
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 18px;
+    padding: 8px;
+}
+
+.footer-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-img img {
+    height: 100px;
+    width: 150px;
+}
