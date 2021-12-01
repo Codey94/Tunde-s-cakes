@@ -7,7 +7,7 @@
 /*---------------------------------------------------Header*/
 
 .banner {
-    background-color: blue;
+    background-color: pink;
     height: 80vh;
     min-height: 600px;
     min-width: 800px;
@@ -54,8 +54,7 @@
 
 .heading-bg-color {
     background-color: rgb(78, 42, 22);
-    max-height: 80px;
-    
+    display: flex;
 }
 
 .heading-spacing {
@@ -304,15 +303,18 @@
 
 .pic-sec .pics {
     display: flex;
+    flex-direction: column;
+    flex: 1;
     align-items: center;
     justify-content: center;
 }
 
 .pics img {
+    display: flex;
+    flex-direction: column;
     height: 100%;
     width: 100%;
-    height: 463.73px;
-    width: 250px;
+    height: 470px;
     object-fit: cover;
 }
 
@@ -324,15 +326,21 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .footer-nav {
     color: pink;
     font-family: 'Viaoda Libre', cursive;
     font-size: 18px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.footer-nav span {
     padding: 8px;
+    margin: 10px;
 }
 
 .footer-img {
@@ -343,4 +351,23 @@
 .footer-img img {
     height: 100px;
     width: 150px;
+}
+
+.footer-socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-socials i {
+    padding: 10px;
+    font-size: 30px;
+    color: pink;
+}
+
+.footer-socials a:hover {
+    color: #848391;
+    cursor: pointer;
 }
