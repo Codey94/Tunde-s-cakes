@@ -21,7 +21,7 @@
 .header {
     height: 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     padding-left: 20px;
     padding-right: 20px;
     align-items: center;
@@ -37,6 +37,10 @@
 .nav span{
     margin-right: 30px;
     cursor: pointer;
+}
+
+.nav span:hover {
+    color: pink;
 }
 
 .contact {
@@ -341,6 +345,11 @@
 .footer-nav span {
     padding: 8px;
     margin: 10px;
+    cursor: pointer;
+}
+
+.footer-nav span:hover {
+    color: #fff;
 }
 
 .footer-img {
@@ -367,7 +376,7 @@
     color: pink;
 }
 
-.footer-socials a:hover {
-    color: #848391;
+.footer-socials i:hover {
+    color: #fff;
     cursor: pointer;
 }
