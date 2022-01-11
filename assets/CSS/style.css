@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
 
+* {
+    margin: 0;
+}
+
 .site-bg {
     background-color: pink;
 }
@@ -8,7 +12,7 @@
 
 .banner {
     background-color: pink;
-    height: 80vh;
+    height: 100vh;
     min-height: 600px;
     min-width: 800px;
     background-image: url("/assets/IMGs/cake\ backgroud\ img.jpg");
@@ -67,10 +71,6 @@
     margin-bottom: 25px;
 }
 
-.d-inline {
-    display: inline;
-}
-
 .logo-pic {
     background: url(/assets/IMGs/logo\ test\ 3.png) no-repeat;
     background-position: center;
@@ -93,10 +93,14 @@
     height: 475px;
 }
 
-.section1 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.section1 .right {
+    background-image: url(/assets/IMGs/Chocolate\ Cake.jpg);
+    background-position: center top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .section1 .left {
@@ -379,4 +383,25 @@
 .footer-socials i:hover {
     color: #fff;
     cursor: pointer;
+}
+
+@media (max-width: 600px) {
+
+    .section1 .left {
+    background-image: url(/assets/IMGs/Chocolate\ Cake.jpg);
+    background-position: center top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    }
+
+    .section1 .right {
+        
+    }
+
+    .section1, .section2, .section3 {
+        flex-direction: column;
+    }
 }
