@@ -22,7 +22,6 @@
 }
 
 .header {
-    height: 60px;
     display: flex;
     justify-content: right;
     padding-left: 20px;
@@ -384,7 +383,12 @@
     cursor: pointer;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
+
+    .nav {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
 
     .section2 .left {
         order: 2;
